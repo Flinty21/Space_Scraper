@@ -11,7 +11,7 @@ public class ButtonPushOpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<XRSimpleInteractable>().onSelectEntered.AddListener(x => ToggleDoorOpen());
+        GetComponent<XRSimpleInteractable>().selectEntered.AddListener(x => ToggleDoorOpen());
     }
 
     public void ToggleDoorOpen()
