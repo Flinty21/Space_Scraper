@@ -4461,7 +4461,6 @@ GameObject:
   - component: {fileID: 643851724}
   - component: {fileID: 643851727}
   - component: {fileID: 643851729}
-  - component: {fileID: 643851728}
   - component: {fileID: 643851730}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
@@ -4621,49 +4620,6 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 643851725}
   m_MinHeight: 0
   m_MaxHeight: Infinity
---- !u!114 &643851728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 643851720}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 643851726}
-  m_TurnAmount: 45
-  m_DebounceTime: 0.5
-  m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
-  m_DelayTime: 0
-  m_LeftHandSnapTurnAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Left Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: Vector2
-      m_Id: d3cffc34-44d3-482a-88d1-850454542caf
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_RightHandSnapTurnAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Right Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: Vector2
-      m_Id: f3445653-d097-47a2-8221-293aa53e0e34
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
 --- !u!114 &643851729
 MonoBehaviour:
   m_ObjectHideFlags: 0
